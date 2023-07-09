@@ -1,0 +1,86 @@
+.topHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    background-color: #313131;
+    color: #F5F5F5;
+}
+.topHeader_container{
+    display: flex;
+}
+.contactInfo {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.bottomHeader {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+.logo {
+    width: 20px;
+}
+
+h1 {
+    font-size: 32px !important;
+    font-family: math;
+    font-weight: 700 !important;
+    letter-spacing: 0.64px;
+    text-align: left;
+    color: #000000 !important;
+}
+
+.bottomHeader_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topHeader_container{
+    justify-content: flex-end;
+}
+
+.bottomHeader_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottomHeader_right {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+
+
+.menu_link {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu_button {
+    border-radius: 10px 0px;
+    background: #06F;
+    width: 125px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    font-size: 21px;
+}

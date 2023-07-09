@@ -1,0 +1,12 @@
+body{
+    background-color: #f6f6f6
+}
+
+
+
+.mainMenu-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+}

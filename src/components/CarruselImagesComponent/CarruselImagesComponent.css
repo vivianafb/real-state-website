@@ -1,0 +1,132 @@
+.slide-container {
+    width: 1360px !important;
+    margin: 0 auto;
+}
+
+.item {
+    width: 750px !important;
+    height: 500px !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.item img {
+    max-width: 750px !important;
+    height: auto;
+    max-height: 500px !important;
+    display: flex;
+    margin: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.slider {
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.react-multi-carousel-list {
+    padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+    border: none;
+    background: rgb(255, 68, 68);
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+    background: rgb(255, 68, 68) !important;
+}
+
+.slider-box {
+    border-radius: 5px;
+    background: #FFF;
+    width: 260px;
+    height: 200px;
+    top: -90px;
+    position: relative;
+}
+
+.slider-top {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    gap: 15px;
+    padding: 25px 0 0 24px;
+}
+
+.slider-tite {
+    color: #000;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.slider-text {
+    color: #000;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.slider-flag {
+    position: absolute;
+    top: -12px;
+    right: 0;
+    border-radius: 1px 10px;
+    background: #06F;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.slider-divisor {
+    background: #AAA;
+    width: auto;
+    height: 2px;
+    margin-top: 15px;
+    margin: 0 25px
+}
+
+.slider-descripton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #555;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+.slider-icon {
+    width: 25px !important;
+    height: 20px;
+}
+
+.slider-info {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
